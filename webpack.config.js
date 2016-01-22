@@ -25,10 +25,9 @@ module.exports = {
                 ])
             },
             {
-                test: path.join(__dirname, "app", "styles", "main.less"),
+                test: path.join(__dirname, "app", "styles", "main.css"),
                 loader: extractMainLess.extract([
-                    "css",
-                    "less"
+                    "css"
                 ])
             },
             {

@@ -22,8 +22,6 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "html-loader": "^0.4.0",
-    "less": "^2.5.3",
-    "less-loader": "^2.2.2",
     "webpack": "^1.12.11"
   }
 }
