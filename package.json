@@ -1,0 +1,29 @@
+{
+  "name": "webpack-extract-index-html",
+  "version": "1.0.0",
+  "description": "Example project that demonstrates how the ExtractTextWebpackPlugin can be used to generate an index.html",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhnns/webpack-extract-index-html.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jhnns/webpack-extract-index-html/issues"
+  },
+  "homepage": "https://github.com/jhnns/webpack-extract-index-html#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "webpack": "^1.12.11"
+  }
+}
